@@ -1,4 +1,4 @@
-# Klomn (klomn.com)
+# Klomn.com
 
 ```
 ██╗  ██╗██╗      ██████╗ ███╗   ███╗███╗   ██╗
@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═══╝
 ```
 
-**klomn.com** is an interactive **Klomn Playground on the web browser**, powered by Klomn: an elegant, modern, lightweight, and zero-dependency **Skulpt alternative** written in ES-next JavaScript.
+**Klomn.com** is the repository for the **Klomn Playground on the web browser**, powered by Klomn: an elegant, modern, lightweight, and zero-dependency **Skulpt alternative** written in ES-next JavaScript.
 
 Unlike Skulpt which compiles Python into complex, heavy JavaScript generator code, **Klomn** parses Python into an Abstract Syntax Tree (AST) and interprets it using a direct, high-performance tree-walking interpreter. This makes it extremely fast to load, modular, and easy to run anywhere—from browser environments to command-line terminals.
 
