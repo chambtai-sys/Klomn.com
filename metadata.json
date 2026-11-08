@@ -1,0 +1,8 @@
+{
+  "name": "Klomn Python Interpreter & Playground",
+  "description": "An elegant, lightweight, zero-dependency Python interpreter and interactive playground in JavaScript.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

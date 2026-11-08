@@ -1,0 +1,44 @@
+{
+  "name": "klomn",
+  "version": "1.0.0-beta.1",
+  "description": "Klomn: A lightweight, zero-dependency Python interpreter in JavaScript. An elegant and modern alternative to Skulpt.",
+  "type": "module",
+  "main": "./lib/interpreter.js",
+  "bin": {
+    "klomn": "./bin/klomn.js"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "lint": "tsc --noEmit",
+    "test": "node tests/runner.js"
+  },
+  "keywords": [
+    "python",
+    "interpreter",
+    "skulpt",
+    "javascript",
+    "lexer",
+    "parser",
+    "ast",
+    "repl",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^1.56.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
